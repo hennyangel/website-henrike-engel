@@ -1,7 +1,14 @@
 :root {
     --color-neutral-100: white;
-    --color-neutral-300: hsl(10, 9%, 96%);
+    --color-neutral-300: hsl(8, 52%, 92%);
     --color-neutral-900: black;
+    --color-primary-400: hsl(185, 100%, 17%);
+    --color-primary-500: hsl(181, 100%, 23%);
+    --color-accent-500:  hsl(41, 100%, 55%);
+
+    --font-size-300: 0.6250em;
+    --font-size-500: 1.0000em;
+    --font-size-900: 3.5000em;
 }
 
 body {
