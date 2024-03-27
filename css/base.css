@@ -1,0 +1,10 @@
+:root {
+    --color-neutral-100: white;
+    --color-neutral-300: hsl(10, 9%, 96%);
+    --color-neutral-900: black;
+}
+
+body {
+    color: var(--color-neutral-900);
+    background: var(--color-neutral-100);
+}
