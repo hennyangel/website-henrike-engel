@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 10rem;
+    background: var(--color-accent-300);
+}
+
+.footer__copyright {
+    color: var(--color-neutral-500);
+    font-size: var(--font-size-300);
+    margin-bottom: 4rem;
+}
+
+.footer__nav-list {
+    display: flex;
+    border-top: 1px solid var(--color-neutral-300);
+    padding-top: 1rem;
+}
+
+.footer__nav-item {
+    margin-right: 2rem;
+}
+
+.footer__nav-item a {
+    text-decoration: none;
+    color: var(--color-accent-500);
+    font-size: var(--font-size-300);
+}
