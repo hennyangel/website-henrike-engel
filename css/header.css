@@ -1,8 +1,10 @@
 .header {
+    position: absolute;
     display: flex;
-    margin: 4rem 10rem;
+    padding: 4rem 10rem;
     justify-content: space-between;
     align-items: center;
+    width: calc(100vw - 20rem);
 }
 
 .header__logo {
