@@ -5,6 +5,7 @@
     background-image: url("../img/Home.png");
     background-position: center;
     background-repeat: no-repeat; 
+    background-size: cover;
 }
 
 .welcome-message {
