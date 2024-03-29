@@ -20,6 +20,10 @@
     --font-heading: "Playfair Display", serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: var(--color-neutral-900);
     background: var(--color-neutral-100);
