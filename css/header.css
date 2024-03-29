@@ -35,6 +35,7 @@
 }
 
 .header__nav-item--active a {
+    font-family: var(--font-heading);
     font-size: var(--font-size-900);
     color: var(--color-primary-400);
 }

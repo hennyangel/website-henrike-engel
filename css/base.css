@@ -10,11 +10,20 @@
 
     --font-size-300: 0.6250em;
     --font-size-500: 1.0000em;
-    --font-size-800: 3.2500em;
-    --font-size-900: 3.5000em;
+    --font-size-700: 2.0000em;
+    --font-size-700: 2.5000em;
+    --font-size-800: 3.0000em;
+    --font-size-900: 4.0000em;
+
+    --font-default: "Century Gothic", "Nanum Gothic", sans-serif;
+    --font-heading: "Playfair Display", serif;
 }
 
 body {
     color: var(--color-neutral-900);
     background: var(--color-neutral-100);
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-family: var(--font-default);
+    font-weight: 500;
 }
