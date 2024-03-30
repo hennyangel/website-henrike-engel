@@ -7,7 +7,6 @@
     --color-primary-500: hsl(181, 100%, 23%);
     --color-accent-300: hsl(8, 52%, 92%);
     --color-accent-500:  hsl(41, 100%, 55%);
-    --color-shadow: rgba(0.7,0.7,0.7,0.2);
 
     --font-size-300: 0.6250em;
     --font-size-500: 1.0000em;
@@ -18,6 +17,9 @@
 
     --font-default: "Century Gothic", "Nanum Gothic", sans-serif;
     --font-heading: "Playfair Display", serif;
+
+    --shadow-neutral: 5px 5px 3px rgba(0.7,0.7,0.7,0.2);
+    --shadow-hover:   7px 7px 2px rgba(0.7,0.7,0.7,0.2);
 }
 
 html {

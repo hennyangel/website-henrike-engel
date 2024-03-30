@@ -9,11 +9,11 @@
     max-width: 100%;
     max-height: 100%;
     cursor: pointer;
-    box-shadow: 5px 5px 3px var(--color-shadow)
+    box-shadow: var(--shadow-neutral);
 }
 
 .preview img:hover {
-    box-shadow: 7px 7px 2px var(--color-shadow)
+    box-shadow: var(--shadow-hover);
 }
 
 .preview-group {

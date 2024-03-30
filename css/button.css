@@ -1,0 +1,15 @@
+.button {
+    color: var(--color-neutral-100);
+    background-color: var(--color-accent-500);
+    border-radius: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: var(--shadow-hover);
+}

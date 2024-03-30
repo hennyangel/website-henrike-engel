@@ -4,13 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Henrike Engel | Über Mich</title>
+
     <link rel="stylesheet" href="css/_reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/info.css">
     <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/button.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -38,33 +47,36 @@
     <!-- CONTENT -------------------------------------------------------------->
     <!------------------------------------------------------------------------->
 
-    <main>
-
-        <!---------- HEADING ---------->
-
-        <h2>Hallo, ich bin Henrike</h2>
+    <main class="info-container">
 
         <!---------- INFO TEXT ---------->
 
         <section class="info">
-            <p class="info-text">
-                Ich habe mein Erststudium in Architektur an der HTW Saar erfolgreich abgeschlossen und studiere nun
-                Mediendesign.
-            </p>
-            <p class="info-text">
-                Auf meiner Website möchte ich dir einen Einblick in meine gestalterischen Arbeiten geben.
-                Als Designering widme ich mich der Gestaltung von Logos, Printmedien, Verpacksdesign und Illustrationen.
-            </p>
-            <p class="info-text">
-                Ich freue mich darauf, von dir zu hören.
-            </p>
-            <a class="button" href="./contact.html">Kontakt</a>
+            <h2>Hallo, <br> ich bin Henrike</h2>
+
+            <div class="info-box">
+                <p class="info-text">
+                    Ich habe mein Erststudium in Architektur an der HTW Saar erfolgreich abgeschlossen und studiere nun
+                    Mediendesign.
+                </p>
+                <p class="info-text">
+                    Auf meiner Website möchte ich dir einen Einblick in meine gestalterischen Arbeiten geben.
+                    Als Designering widme ich mich der Gestaltung von Logos, Printmedien, Verpacksdesign und
+                    Illustrationen.
+                </p>
+                <p class="info-text">
+                    Ich freue mich darauf, von dir zu hören.
+                </p>
+                <div class="info-box__button-container">
+                    <a class="button" href="./contact.html">Kontakt</a>
+                </div>
+            </div>
         </section>
 
         <!---------- PROFILE PICTURE ---------->
 
         <section class="profile">
-            <img src="" alt="Profile Picture">
+            <img src="img/About_Me.png" alt="Profile Picture">
         </section>
 
     </main>
