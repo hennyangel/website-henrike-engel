@@ -15,7 +15,7 @@
     --font-size-800: 3.0000em;
     --font-size-900: 4.0000em;
 
-    --font-default: "Century Gothic", "Nanum Gothic", sans-serif;
+    --font-default: "Poppins", sans-serif;
     --font-heading: "Playfair Display", serif;
 
     --shadow-neutral: 5px 5px 3px rgba(0.7,0.7,0.7,0.2);
@@ -32,5 +32,5 @@ body {
     font-optical-sizing: auto;
     font-style: normal;
     font-family: var(--font-default);
-    font-weight: 500;
+    font-weight: 100;
 }

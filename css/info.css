@@ -30,6 +30,7 @@
     font-size: var(--font-size-700);
     margin: 2rem;
     line-height: 1.5;
+    font-weight: 300;
 }
 
 .info-box {
