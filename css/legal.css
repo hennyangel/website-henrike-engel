@@ -24,6 +24,7 @@
 
 .legal p {
     text-align: justify;
+    font-weight: 200;
 }
 
 .legal section p:not(:first-of-type) {
