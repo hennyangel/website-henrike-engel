@@ -47,6 +47,40 @@
     cursor: pointer;
 }
 
+.contact__info-item {
+    display: flex;
+    align-items: center;
+}
+
 .contact__info-item:not(:first-child) {
     margin-top: 1rem;
+}
+
+.contact__icon::after {
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    background-size: cover;
+    margin-right: 1rem;
+}
+
+.contact__person-icon::after {
+    background-image: url("../img/IconPerson_Light.png");
+}
+
+.contact__mail-icon::after {
+    background-image: url("../img/IconMail_Light.png");
+}
+
+.contact__home-icon::after {
+    background-image: url("../img/IconAddress_Light.png");
+}
+
+.contact__instagram-icon::after {
+    background-image: url("../img/IconInstagram_Light.png");
+}
+
+.contact__linkedin-icon::after {
+    background-image: url("../img/IconLinkedin_Light.png");
 }
