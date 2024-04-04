@@ -9,13 +9,14 @@
 }
 
 .welcome-message {
-    width: 30rem;
+    width: 32rem;
     padding-top: 20rem;
     padding-left: 5rem;
     font-size: var(--font-size-800);
     color: var(--color-accent-300);
     text-align: center;
     line-height: 5rem;
+    font-weight: 200;
 }
 
 .welcome-scroll-button::after {
