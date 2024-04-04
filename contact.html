@@ -4,14 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Henrike Engel | Kontakt</title>
+
     <link rel="stylesheet" href="css/_reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/decoration.css">
+    <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/form.css">
-    <link rel="stylesheet" href="css/decoration.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -39,7 +51,7 @@
     <!-- CONTENT -------------------------------------------------------------->
     <!------------------------------------------------------------------------->
 
-    <main>
+    <main class="contact-container">
 
         <!---------- CONTACT WIDGET ---------->
 
@@ -77,15 +89,15 @@
             <form action="">
                 <h2>Du hast eine Frage?</h2>
                 <p>Gerne kannst du mir über das Kontaktformular dein Anliegen mitteilen.</p>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="E-Mail Adresse">
-                <textarea placeholder="Nachricht"></textarea>
+                <input class="form__input" type="text" placeholder="Name">
+                <input class="form__input" type="email" placeholder="E-Mail Adresse">
+                <textarea class="form__input" placeholder="Nachricht" rows="10"></textarea>
                 <div class="form__submit">
                     <input type="checkbox" id="form__submit__privacy">
                     <label for="form__submit__privacy">
                         Ich habe die <a href="./privacy.html">Datenschutzerklärung</a> zur Kenntnis genommen.*
                     </label>
-                    <input type="submit" value="Absenden">
+                    <input class="button" type="submit" value="Absenden">
                 </div>
             </form>
         </section>
