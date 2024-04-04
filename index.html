@@ -26,7 +26,7 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body onload="revealWelcomeMessage()">
 
     <!------------------------------------------------------------------------->
     <!-- HEADER --------------------------------------------------------------->
@@ -56,11 +56,14 @@
         <!---------- WELCOME WIDGET ---------->
 
         <section class="welcome">
-            <div class="welcome-message">
-                Hallo, ich bin Henrike <br>
-                schau dir mein <br>
-                Portfolio an&hellip;<br>
-            </div>
+            <noscript>
+                <div class="welcome-message">
+                    Hallo, ich bin Henrike <br>
+                    schau dir mein <br>
+                    Portfolio an&hellip;<br>
+                </div>
+            </noscript>
+            <div id="scripted-welcome-message"></div>
             <a href="#preview" class="welcome-scroll-button"></a>
         </section>
 
