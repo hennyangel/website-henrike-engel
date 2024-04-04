@@ -4,7 +4,7 @@
     width: 100vw;
     background-image: url("../img/Home.png");
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -30,4 +30,18 @@
     border-radius: 4px;
     cursor: pointer;
     rotate: 45deg;
+}
+
+.welcome-bounce::after {
+    animation: pulse 0.8s infinite ease-in-out alternate;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
 }
