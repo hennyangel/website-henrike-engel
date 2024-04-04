@@ -8,6 +8,7 @@
 .footer__copyright {
     color: var(--color-neutral-500);
     font-size: var(--font-size-300);
+    font-weight: 300;
     margin-bottom: 4rem;
 }
 
