@@ -1,0 +1,11 @@
+main::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--color-accent-300);
+    width: 60vw;
+    height: 70vh;
+    z-index: -1;
+    border-top-left-radius: 16rem 14rem ;
+}
