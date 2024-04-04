@@ -37,6 +37,10 @@
     font-weight: 400;
 }
 
+.header__nav-item:hover a {
+    color: var(--color-primary-500);
+}
+
 .header__nav-item--active a {
     font-family: var(--font-heading);
     font-size: var(--font-size-900);
