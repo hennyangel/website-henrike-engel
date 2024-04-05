@@ -11,7 +11,7 @@ const INITIAL_WELCOME_MESSAGE_DELAY_MS = 50;
 const WELCOME_MESSAGE_DELAY_MS = 100;
 const BOUNCE_DELAY_MS = 200;
 
-const WELCOME_MESSAGE = "Hallo, ich bin Henrike,\nschau dir mein\nPortfolio an...";
+const WELCOME_MESSAGE = "Hallo, ich bin Henrike!\nSchau dir mein\nPortfolio an.";
 
 // =============================================================================
 // == STATE
