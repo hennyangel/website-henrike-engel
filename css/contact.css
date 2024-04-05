@@ -66,21 +66,21 @@
 }
 
 .contact__person-icon::after {
-    background-image: url("../img/IconPerson_Light.png");
+    background-image: url("../img/icons/light/Person.png");
 }
 
 .contact__mail-icon::after {
-    background-image: url("../img/IconMail_Light.png");
+    background-image: url("../img/icons/light/Mail.png");
 }
 
 .contact__home-icon::after {
-    background-image: url("../img/IconAddress_Light.png");
+    background-image: url("../img/icons/light/House.png");
 }
 
 .contact__instagram-icon::after {
-    background-image: url("../img/IconInstagram_Light.png");
+    background-image: url("../img/icons/light/Instagram.png");
 }
 
 .contact__linkedin-icon::after {
-    background-image: url("../img/IconLinkedin_Light.png");
+    background-image: url("../img/icons/light/Linkedin.png");
 }
