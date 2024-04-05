@@ -7,8 +7,6 @@
 
 .footer__copyright {
     color: var(--color-neutral-500);
-    font-size: var(--font-size-300);
-    font-weight: 300;
     margin-bottom: 4rem;
 }
 
@@ -25,6 +23,4 @@
 .footer__nav-item a {
     text-decoration: none;
     color: var(--color-accent-500);
-    font-size: var(--font-size-300);
-    font-weight: 200;
 }
