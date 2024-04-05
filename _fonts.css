@@ -3,13 +3,13 @@
 :root {
     --font-size-100: 0.2500em;
     --font-size-200: 0.5000em;
-    --font-size-300: 0.6250em;
-    --font-size-400: 0.8750em;
-    --font-size-500: 1.0000em;
-    --font-size-600: 2.0000em;
-    --font-size-700: 2.5000em;
-    --font-size-800: 3.0000em;
-    --font-size-900: 4.0000em;
+    --font-size-300: 0.4250em;
+    --font-size-400: 0.6750em;
+    --font-size-500: 0.8750em;
+    --font-size-600: 1.0000em;
+    --font-size-700: 1.5000em;
+    --font-size-800: 2.0000em;
+    --font-size-900: 2.0000em;
 
     --font-neutral: "Poppins", sans-serif;
     --font-accent: "Playfair Display", serif;
@@ -56,4 +56,18 @@
     font-weight: 200;
     font-style: normal;
     font-optical-sizing: auto;
+}
+
+@media only screen and (min-width: 800px) {
+    :root {
+        --font-size-100: 0.2500em;
+        --font-size-200: 0.5000em;
+        --font-size-300: 0.6250em;
+        --font-size-400: 0.8750em;
+        --font-size-500: 1.0000em;
+        --font-size-600: 2.0000em;
+        --font-size-700: 2.5000em;
+        --font-size-800: 3.0000em;
+        --font-size-900: 4.0000em;
+    }
 }
