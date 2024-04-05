@@ -77,10 +77,12 @@
                 <input class="font-detail form__input" type="email" placeholder="E-Mail Adresse" required>
                 <textarea class="font-detail form__input" placeholder="Nachricht" rows="10" required></textarea>
                 <div class="form__submit">
-                    <input type="checkbox" id="form__submit__privacy" required>
-                    <label class="font-detail" for="form__submit__privacy">
-                        Ich habe die <a href="./privacy.html">Datenschutzerklärung</a> zur Kenntnis genommen.*
-                    </label>
+                    <div class="form__submit__privacy-container">
+                        <input type="checkbox" id="form__submit__privacy" required>
+                        <label class="font-detail" for="form__submit__privacy">
+                            Ich habe die <a href="./privacy.html">Datenschutzerklärung</a> zur Kenntnis genommen.*
+                        </label>
+                    </div>
                     <input class="bg-accent-dark font-text button" type="submit" value="Absenden">
                 </div>
             </form>
