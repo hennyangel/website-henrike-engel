@@ -1,6 +1,7 @@
 .preview {
     padding: 2rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -40,4 +41,10 @@
 
 .preview-group-3 a:first-of-type {
     align-self: end;
+}
+
+@media only screen and (min-width: 800px) {
+    .preview {
+        flex-direction: row;
+    }
 }

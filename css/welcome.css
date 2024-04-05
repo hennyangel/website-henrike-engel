@@ -3,18 +3,18 @@
     height: 100vh;
     width: 100vw;
     background-image: url("../img/photos/Home.png");
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right -12rem top;
 }
 
 .welcome-message {
+    position: relative;
+    top: 40vh;
     width: 32rem;
-    padding-top: 40vh;
-    padding-left: 5rem;
+    max-width: 100%;
     text-align: center;
-    line-height: 5rem;
-    font-weight: 200;
+    margin: auto;
 }
 
 .welcome-scroll-button::after {
@@ -23,7 +23,7 @@
     width: 2rem;
     height: 2rem;
     bottom: 3rem;
-    left: 50%;
+    left: calc(50% - 1rem);
     border-right: 4px solid var(--color-accent-500);
     border-bottom: 4px solid var(--color-accent-500);
     border-radius: 4px;
@@ -42,5 +42,16 @@
 
     to {
         transform: scale(1.5);
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .welcome {
+        background-position: center;
+    }
+
+    .welcome-message {
+        left: 5rem;
+        margin: unset;
     }
 }
