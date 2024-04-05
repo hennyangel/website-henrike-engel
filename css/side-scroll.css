@@ -1,0 +1,69 @@
+.side-scroll {
+    position: fixed;
+    top: 30vh;
+    left: 10rem;
+}
+
+.side-scroll__deco {
+    position: absolute;
+    top: 0.2rem;
+    bottom: 0.2rem;
+    width: 2px;
+    left: calc(1rem - 1px);
+    background-color: var(--color-primary-400);
+}
+
+.side-scroll__item:not(:last-of-type) {
+    margin-bottom: 2rem;
+}
+
+.side-scroll__item a {
+    color: var(--color-primary-400);
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.side-scroll__icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 2rem;
+    border-radius: 50%;
+    background-color: var(--color-primary-400);
+}
+
+.side-scroll__icon::after {
+    display: inline-block;
+    position: relative;
+    content: '';
+    background-size: cover;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.side-scroll__logos-icon::after {
+    background-image: url("../img/IconLogos_Light.png");
+}
+
+.side-scroll__graphics-icon::after {
+    background-image: url("../img/IconGraphics_Light.png");
+}
+
+.side-scroll__cards-icon::after {
+    background-image: url("../img/IconCards_Light.png");
+}
+
+.side-scroll__invitations-icon::after {
+    background-image: url("../img/IconInvitations_Light.png");
+}
+
+.side-scroll__flyer-icon::after {
+    background-image: url("../img/IconFlyers_Light.png");
+}
+
+.side-scroll__packaging-icon::after {
+    background-image: url("../img/IconPackaging_Light.png");
+}

@@ -1,6 +1,6 @@
 main::before {
     content: '';
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     background-color: var(--color-accent-300);

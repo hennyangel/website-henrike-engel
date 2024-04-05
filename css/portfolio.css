@@ -1,0 +1,13 @@
+.portfolio {
+    padding-top: 25vh;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 3rem;
+    margin-left: 16rem;
+}
+
+.portfolio section {
+    height: 80vh;
+    background-color: #FF000033;
+    margin-bottom: 2rem;
+}
