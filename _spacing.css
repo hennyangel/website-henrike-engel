@@ -2,6 +2,7 @@
     --space-document-left: 1rem;
     --space-document-right: 1rem;
     --space-document-top: 1rem;
+    --space-document-bottom: 1rem;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -9,5 +10,6 @@
         --space-document-left: 10rem;
         --space-document-right: 10rem;
         --space-document-top: 4rem;
+        --space-document-bottom: 4rem;
     }
 }
