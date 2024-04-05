@@ -10,10 +10,16 @@
     max-height: 100%;
     cursor: pointer;
     box-shadow: var(--shadow-neutral);
+    filter: grayscale(100%);
+    transition: 0.5s;
 }
 
 .preview img:hover {
+    position: relative;
     box-shadow: var(--shadow-hover);
+    filter: none;
+    scale: 1.1;
+    z-index: 1;
 }
 
 .preview-group {
