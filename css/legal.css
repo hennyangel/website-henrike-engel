@@ -1,8 +1,8 @@
 .legal {
     padding-top: 12rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
-    padding-bottom: 2rem;
+    padding-left: var(--space-document-left);
+    padding-right: var(--space-document-right);
+    padding-bottom: var(--space-document-bottom);
 }
 
 .legal section {
