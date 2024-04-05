@@ -1,6 +1,5 @@
 .preview {
     padding: 2rem;
-    background: var(--color-primary-400);
     display: flex;
     justify-content: center;
 }

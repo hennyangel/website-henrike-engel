@@ -26,11 +26,8 @@
 
 .contact__info {
     position: absolute;
-    background-color: var(--color-primary-500);
     padding: 2rem;
     font-weight: 200;
-    font-size: var(--font-size-400);
-    color: var(--color-accent-300);
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 2rem;

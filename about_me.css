@@ -1,4 +1,6 @@
+@import url("_colors.css");
 @import url("_fonts.css");
+
 @import url("css/_reset.css");
 @import url("css/base.css");
 @import url("css/header.css");

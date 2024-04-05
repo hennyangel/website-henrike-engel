@@ -10,7 +10,6 @@
     bottom: 0.2rem;
     width: 2px;
     left: calc(1rem - 1px);
-    background-color: var(--color-primary-400);
 }
 
 .side-scroll__item:not(:last-of-type) {
@@ -18,7 +17,6 @@
 }
 
 .side-scroll__item a {
-    color: var(--color-primary-400);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -30,7 +28,6 @@
     height: 2rem;
     margin-right: 2rem;
     border-radius: 50%;
-    background-color: var(--color-primary-400);
 }
 
 .side-scroll__icon::after {

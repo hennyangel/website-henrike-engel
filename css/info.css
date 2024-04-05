@@ -16,16 +16,12 @@
 }
 
 .info h2 {
-    color: var(--color-primary-400);
-    font-size: var(--font-size-700);
     margin: 2rem;
     line-height: 1.5;
     font-weight: 300;
 }
 
 .info-box {
-    color: var(--color-neutral-100);
-    background: var(--color-primary-400);
     padding-left: 4.5rem;
     padding-right: 5.5rem;
     padding-top: 3rem;
